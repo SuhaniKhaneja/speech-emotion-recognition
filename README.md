@@ -57,6 +57,10 @@ This project can be used in:
 ---
 
 ## 👩‍💻 Author
-- Your Name
+- Suhani
 
 ---
+## Results
+- Model trained on 2800+ audio samples
+- Training loss decreased consistently
+- Successfully predicts emotion on unseen audio
