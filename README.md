@@ -27,13 +27,23 @@ This project builds a Speech Emotion Recognition system that classifies emotions
 - Output: Emotion class prediction
 
 ---
+## 📊 Results
 
-## 📈 Results
-- Model successfully learns patterns from speech data
-- Training loss decreases over epochs
-- Predicts emotion from unseen audio samples
+- Trained on ~2800+ audio samples from RAVDESS dataset  
+- Observed consistent decrease in training loss during training  
+- Implemented train-test split to evaluate model on unseen data  
+- Model is able to predict emotion from new audio samples  
+
+> ⚠️ Initially faced overfitting due to training on full dataset, which was resolved by introducing proper train-test evaluation.
 
 ---
+## ⚙️ Pipeline
+
+Audio (.wav)  
+→ MFCC Feature Extraction  
+→ Neural Network Training  
+→ Evaluation (Train/Test Split)  
+→ Emotion Prediction
 
 ## 💡 Use Case
 This project can be used in:
@@ -54,13 +64,3 @@ This project can be used in:
 3. Upload a test audio file
 4. Get predicted emotion output
 
----
-
-## 👩‍💻 Author
-- Suhani
-
----
-## Results
-- Model trained on 2800+ audio samples
-- Training loss decreased consistently
-- Successfully predicts emotion on unseen audio
